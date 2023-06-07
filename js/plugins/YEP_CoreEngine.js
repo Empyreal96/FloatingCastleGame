@@ -896,8 +896,8 @@ Yanfly.Parameters = PluginManager.parameters('YEP_CoreEngine');
 Yanfly.Param = Yanfly.Param || {};
 Yanfly.Icon = Yanfly.Icon || {};
 
-Yanfly.Param.ScreenWidth  = Number(Yanfly.Parameters['Screen Width'] || 816);
-Yanfly.Param.ScreenHeight = Number(Yanfly.Parameters['Screen Height'] || 624);
+Yanfly.Param.ScreenWidth  = Number(Yanfly.Parameters['Screen Width'] || 900);
+Yanfly.Param.ScreenHeight = Number(Yanfly.Parameters['Screen Height'] || 600);
 Yanfly.Param.ScaleBattleback = String(Yanfly.Parameters['Scale Battlebacks']);
 Yanfly.Param.ScaleBattleback = eval(Yanfly.Param.ScaleBattleback);
 Yanfly.Param.ScaleTitle = eval(String(Yanfly.Parameters['Scale Title']));
