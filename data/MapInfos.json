@@ -1,0 +1,16 @@
+[
+null,
+{"id":1,"expanded":false,"name":"F1_ToBCenter","order":1,"parentId":0,"scrollX":651,"scrollY":597},
+{"id":2,"expanded":false,"name":"F1_ToBMarket","order":2,"parentId":0,"scrollX":651,"scrollY":595},
+{"id":3,"expanded":false,"name":"F1_ToBPlaza","order":3,"parentId":0,"scrollX":651.3333333333334,"scrollY":444.6666666666667},
+{"id":4,"expanded":false,"name":"F1_ToBRespawnInt","order":4,"parentId":0,"scrollX":1129.7142857142856,"scrollY":627.4285714285714},
+{"id":5,"expanded":false,"name":"F1_ToBAdventureGuildInt","order":5,"parentId":0,"scrollX":515,"scrollY":522},
+{"id":6,"expanded":false,"name":"F1_ToBMysticMeerkatInt","order":6,"parentId":0,"scrollX":515,"scrollY":330},
+{"id":7,"expanded":false,"name":"F1_ToBInnkeepersInt","order":7,"parentId":0,"scrollX":434,"scrollY":242},
+{"id":8,"expanded":false,"name":"F1_ProvingGroundsEXT01","order":8,"parentId":0,"scrollX":2364,"scrollY":3067.5},
+{"id":9,"expanded":false,"name":"F1_ProvingGroundsEXT02Meadow","order":9,"parentId":0,"scrollX":3514.6666666666665,"scrollY":1936},
+{"id":10,"expanded":false,"name":"F1_ProvingGroundsEXT03Labyrinth","order":10,"parentId":0,"scrollX":1683.4285714285713,"scrollY":1002.8571428571428},
+{"id":11,"expanded":false,"name":"F1_ProvingGroundsEXT04Forest","order":11,"parentId":0,"scrollX":1568,"scrollY":1472},
+{"id":12,"expanded":false,"name":"F1_ProvingGroundsINT01Meadow","order":12,"parentId":0,"scrollX":2510.4,"scrollY":1411.2},
+{"id":13,"expanded":false,"name":"F1_ProvingGroundsINT02Meadow","order":13,"parentId":0,"scrollX":1710.8571428571427,"scrollY":1002.8571428571428}
+]
