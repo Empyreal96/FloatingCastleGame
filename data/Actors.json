@@ -1,4 +1,5 @@
 [
 null,
-{"id":1,"battlerName":"Actor1_3","characterIndex":2,"characterName":"Actor1","classId":1,"equips":[1,1,2,3,0],"faceIndex":2,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Player","nickname":"","note":"","profile":""}
+{"id":1,"battlerName":"MainChar1","characterIndex":0,"characterName":"MainChar1","classId":1,"equips":[1,1,2,3,0],"faceIndex":1,"faceName":"MainChar","traits":[],"initialLevel":1,"maxLevel":99,"name":"Player","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Ophelia_Battler","characterIndex":0,"characterName":"Ophelia_Walk1","classId":2,"equips":[2,1,2,5,4],"faceIndex":0,"faceName":"Ophelia","traits":[],"initialLevel":1,"maxLevel":99,"name":"Ophelia","nickname":"","note":"","profile":""}
 ]
