@@ -1,5 +1,5 @@
 [
 null,
-{"id":1,"battlerName":"MainChar1","characterIndex":0,"characterName":"MainChar1","classId":1,"equips":[1,1,2,3,0],"faceIndex":1,"faceName":"MainChar","traits":[],"initialLevel":1,"maxLevel":99,"name":"Player","nickname":"","note":"","profile":""},
-{"id":2,"battlerName":"Ophelia_Battler","characterIndex":0,"characterName":"Ophelia_Walk1","classId":2,"equips":[2,1,2,5,4],"faceIndex":0,"faceName":"Ophelia","traits":[],"initialLevel":1,"maxLevel":99,"name":"Ophelia","nickname":"","note":"","profile":""}
+{"id":1,"battlerName":"MainChar1","characterIndex":0,"characterName":"MainChar1","classId":1,"equips":[1,1,2,3,0],"faceIndex":1,"faceName":"MainChar","traits":[{"code":32,"dataId":1,"value":0.03}],"initialLevel":1,"maxLevel":99,"name":"Player","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Ophelia_Battler","characterIndex":0,"characterName":"Ophelia_Walk1","classId":2,"equips":[6,1,2,5,4],"faceIndex":0,"faceName":"Ophelia","traits":[{"code":32,"dataId":8,"value":0.03}],"initialLevel":1,"maxLevel":99,"name":"Ophelia","nickname":"","note":"","profile":""}
 ]
