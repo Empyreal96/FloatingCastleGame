@@ -3,7 +3,7 @@
  * @author Bashar Astifan (License: MIT)
  *
  * @help This plugin adds 3 new Main Menu items that allow
- * Backup/Restore and Delete of Save Data, Target for UWP environment
+ * Backup/Restore and Delete of Save Data
  */
 
 
@@ -35,29 +35,28 @@ function writeLocalStorage(data) {
 
 
 /* SAVE FILE SECTION */
-//Append hidden iframe element
-var iframe = document.createElement("iframe");
-iframe.style.display = "none";
-document.body.appendChild(iframe);
-iframe.onload = function () {
-  var iframeWindow = iframe.contentWindow;
-  var iframeDocument = iframeWindow.document;
-  iframe.contentWindow["dataSaver"] = function (data, fileName) {
-    iframeDocument.title = fileName;
-    var textToSaveAsBlob = new Blob([data], {
-      type: "text/plain"
-    });
-    var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
-    iframeWindow.location.replace(textToSaveAsURL);
-  };
-};
+//Append hidden link element
+var fakeLink = document.createElement("a");
+fakeLink.style.display = "none";
+document.body.appendChild(fakeLink);
 
 function saveLocalStorage() {
   /* dump local storage to string */
   /* save as blob */
   var fileName = document.title.replace(/\s/g, "_") + "." + backupFileType;
-  var scriptCode = "getLocalStorage()";
-  window.location.replace("rpgbackup:" + fileName + "," + scriptCode);
+  var dataToSave = getLocalStorage();
+  try {
+    var textToSaveAsBlob = new Blob([dataToSave], {
+      type: "text/plain"
+    });
+    var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
+    fakeLink.href = textToSaveAsURL;
+    fakeLink.download = fileName;
+    fakeLink.click();
+  } catch {
+    var scriptCode = "getLocalStorage()";
+    window.location.replace("rpgbackup:" + fileName + "," + scriptCode);
+  }
 }
 
 

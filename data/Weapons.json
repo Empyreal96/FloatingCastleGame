@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"animationId":6,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":97,"name":"Iron Sword","note":"","params":[0,0,10,0,0,0,0,0],"price":50,"wtypeId":2},
-{"id":2,"animationId":6,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":99,"name":"Iron Axe","note":"","params":[0,0,10,0,0,0,0,0],"price":50,"wtypeId":4},
+{"id":1,"animationId":6,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":97,"name":"Iron Sword","note":"","params":[0,0,8,0,0,0,0,0],"price":50,"wtypeId":2},
+{"id":2,"animationId":6,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":99,"name":"Iron Axe","note":"","params":[0,0,8,0,0,0,0,0],"price":50,"wtypeId":4},
 {"id":3,"animationId":3,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":101,"name":"Wooden Staff","note":"","params":[0,0,10,0,0,0,0,0],"price":50,"wtypeId":6},
 {"id":4,"animationId":11,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":102,"name":"Beginners Bow","note":"","params":[0,0,10,0,0,0,0,0],"price":50,"wtypeId":7},
 {"id":5,"animationId":6,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":97,"name":"Steel Sword","note":"","params":[0,0,12,0,0,0,0,0],"price":75,"wtypeId":2},
